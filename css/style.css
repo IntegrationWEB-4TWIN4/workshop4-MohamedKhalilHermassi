@@ -46,4 +46,37 @@
   font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
 }
 
+footer {
+  background-color: #242f51;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 1600px;
+  height: 23.5rem;
+}
+
+h3 {
+  height: 69px;
+  width: 100px;
+  color: white;
+}
+
+.text {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+  color: white;
+  font-weight: 700;
+}
+
+.smalltext {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+  color: white;
+}
+
+.icon {
+  padding-left: 7%;
+  min-height: auto;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -8,11 +8,13 @@
   color: $title-color;
   font-weight: 600;
 }
+
 .text {
   font-size: $font-size;
   font-family: $font-style;
   color: $font-color;
 }
+
 .button {
   color: $button-text-color;
   font-family: $button-style;
@@ -32,6 +34,7 @@
   font-family: $font-lorem;
   font-size: $taille-police-lorem;
 }
+
 #automatique-layout2 {
   color: $color-section2-2;
   font-size: $taille-police-Section2-1;
@@ -42,4 +45,41 @@
   color: $color-section2-3;
   font-size: $taille-police-Section2-1;
   font-family: $font-Section2-1;
+}
+
+//footer
+
+footer {
+  background-color: $footer-color;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 1600px;
+  height: $height;
+}
+
+h3 {
+  height: 69px;
+  width: 100px;
+  color: white;
+}
+
+.text {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+  color: white;
+  font-weight: 700;
+}
+
+.smalltext {
+
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+  color: white;
+
+}
+
+.icon {
+  padding-left: 7%;
+  min-height: auto;
+  color: white;
 }
