@@ -1,10 +1,9 @@
-/* Error: expected "{".
+/* Error: Undefined variable.
  *    ,
- * 32 | $footer-color: #242f51;
- *    |                       ^
+ * 92 |   background-color: $footer-color;
+ *    |                     ^^^^^^^^^^^^^
  *    '
- *   sass\_variables.scss 32:23  @import
- *   sass\style.scss 1:9         root stylesheet */
+ *   sass\style.scss 92:21  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    \2577 \a 32 \2502  $footer-color: #242f51;\d\a    \2502                        ^\a    \2575 \a   sass\\_variables.scss 32:23  @import\a   sass\\style.scss 1:9         root stylesheet';
+  content: "Error: Undefined variable.\a    \2577 \a 92 \2502    background-color: $footer-color;\d\a    \2502                      ^^^^^^^^^^^^^\a    \2575 \a   sass\\style.scss 92:21  root stylesheet";
 }
