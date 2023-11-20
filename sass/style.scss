@@ -1,0 +1,26 @@
+@import "_variables";
+
+// Path: sass/_variables.scss
+
+.title {
+    font-size: $title-size;
+    font-family: $title-font-style;
+    color: $title-color;
+    font-weight: 600;
+}
+.text {
+
+    font-size: $font-size;
+    font-family: $font-style;
+    color: $font-color;
+}
+.button{
+
+    color: $button-text-color;
+    font-family: $button-style;
+
+    background-color: $button-color;
+
+
+}
+
