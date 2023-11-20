@@ -21,15 +21,18 @@ $taille-police-lorem: 1rem;
 $color-section2-2: #2563ff;
 $font-family: "Poppins", sans-serif;
 $font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+
 .slide {
   font-family: $font-family;
   font-weight: 500;
   font-size: 1.25rem;
 }
+
 $color-section2-3: #40975f;
 
 
-$font : 'Poppins', sans-serif;
+$font : 'Poppins',
+sans-serif;
 $bestappsize: 3.75rem;
 $bestappcol: #242f51;
 
@@ -37,4 +40,6 @@ $inccol: #616368;
 $incsize: 1.125rem;
 
 $tryforfreecol: #f55767;
-
+$footer-color: #242f51;
+$height: auto;
+$font-family : "Poppins Regular";

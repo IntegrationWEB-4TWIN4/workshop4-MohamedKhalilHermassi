@@ -1,17 +1,112 @@
-/* Error: Undefined variable.
- *    ,
- * 92 |   background-color: $footer-color;
- *    |                     ^^^^^^^^^^^^^
- *    '
- *   sass\style.scss 92:21  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 92 \2502    background-color: $footer-color;\d\a    \2502                      ^^^^^^^^^^^^^\a    \2575 \a   sass\\style.scss 92:21  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+.slide {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+  font-weight: 500;
+  font-size: 1.25rem;
 }
+
+.bigdiv {
+  padding-left: 17.8125rem;
+}
+
+.textdiv {
+  padding-right: 6.25rem;
+}
+
+.bestapp {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.75rem;
+  color: #242f51;
+  line-height: 4.5rem;
+}
+
+.inc {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  color: #616368;
+}
+
+.try {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #f55767;
+  border-radius: 1.81rem;
+  width: 10.625rem;
+  height: 3.5625rem;
+}
+
+@media (max-width: 1340px) {
+  .textdiv {
+    text-align: center;
+  }
+}
+.title {
+  font-size: 2.25rem;
+  font-family: "Poppins";
+  color: #242f51;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 1rem;
+  font-family: "Poppins Regular";
+  color: #616368;
+}
+
+.button {
+  color: #ffffff;
+  font-family: "Poppins Regular";
+  background-color: #f55767;
+}
+
+#automatique-layout1 {
+  color: #f55767;
+  font-size: 1.2rem;
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+}
+
+#loremm {
+  font-family: "https://chemin/vers/le/fichier-de-police-poppins-gras.ttf";
+  font-size: 1rem;
+}
+
+#automatique-layout2 {
+  color: #2563ff;
+  font-size: 1.2rem;
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+}
+
+#automatique-layout3 {
+  color: #40975f;
+  font-size: 1.2rem;
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+}
+
+footer {
+  background-color: #242f51;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 1600px;
+  height: auto;
+}
+
+.text {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+  color: white;
+  font-weight: 700;
+}
+
+.smalltext {
+  font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+  color: white;
+}
+
+.icon {
+  padding-left: 7%;
+  min-height: auto;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

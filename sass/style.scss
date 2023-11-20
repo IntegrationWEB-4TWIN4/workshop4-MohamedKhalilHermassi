@@ -2,12 +2,15 @@
 
 // hero
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 .bigdiv {
   padding-left: 17.8125rem;
 }
+
 .textdiv {
   padding-right: 6.25rem;
 }
+
 .bestapp {
   font-family: $font;
   font-size: $bestappsize;
@@ -98,11 +101,6 @@ footer {
   height: $height;
 }
 
-h3 {
-  height: 69px;
-  width: 100px;
-  color: white;
-}
 
 .text {
   font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
