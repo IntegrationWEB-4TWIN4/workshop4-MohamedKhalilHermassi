@@ -1,5 +1,44 @@
 @import "_variables";
 
+// hero
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+.bigdiv {
+  padding-left: 17.8125rem;
+}
+.textdiv {
+  padding-right: 6.25rem;
+}
+.bestapp {
+  font-family: $font;
+  font-size: $bestappsize;
+  color: $bestappcol;
+  line-height: 4.5rem;
+}
+
+.inc {
+  font-family: $font;
+  font-size: $incsize;
+  color: $inccol;
+}
+
+.try {
+  font-family: $font;
+  color: white;
+  background-color: $tryforfreecol;
+  border-radius: 1.81rem;
+  width: 10.625rem;
+  height: 3.5625rem;
+}
+
+
+@media (max-width: 1340px) {
+  .textdiv {
+    text-align: center;
+  }
+}
+
+
+
 // Path: sass/_variables.scss
 
 .title {
