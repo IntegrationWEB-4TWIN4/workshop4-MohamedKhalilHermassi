@@ -3,24 +3,43 @@
 // Path: sass/_variables.scss
 
 .title {
-    font-size: $title-size;
-    font-family: $title-font-style;
-    color: $title-color;
-    font-weight: 600;
+  font-size: $title-size;
+  font-family: $title-font-style;
+  color: $title-color;
+  font-weight: 600;
 }
 .text {
-
-    font-size: $font-size;
-    font-family: $font-style;
-    color: $font-color;
+  font-size: $font-size;
+  font-family: $font-style;
+  color: $font-color;
 }
-.button{
+.button {
+  color: $button-text-color;
+  font-family: $button-style;
 
-    color: $button-text-color;
-    font-family: $button-style;
-
-    background-color: $button-color;
-
-
+  background-color: $button-color;
 }
 
+//Section 2
+
+#automatique-layout1 {
+  color: $color-Section2-1;
+  font-size: $taille-police-Section2-1;
+  font-family: $font-Section2-1;
+}
+
+#loremm {
+  font-family: $font-lorem;
+  font-size: $taille-police-lorem;
+}
+#automatique-layout2 {
+  color: $color-section2-2;
+  font-size: $taille-police-Section2-1;
+  font-family: $font-Section2-1;
+}
+
+#automatique-layout3 {
+  color: $color-section2-3;
+  font-size: $taille-police-Section2-1;
+  font-family: $font-Section2-1;
+}

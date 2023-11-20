@@ -1,17 +1,29 @@
-$title-color : #242f51;
-$font-color : #616368;
-$title-font-style : "Poppins";
+$title-color: #242f51;
+$font-color: #616368;
+$title-font-style: "Poppins";
 $title-font-weight: "Semi-Bold";
 
-$font-style : "Poppins Regular";
-$button-color : #f55767;
-$title-size : 2.25rem;
-$font-size : 1rem;
+$font-style: "Poppins Regular";
+$button-color: #f55767;
+$title-size: 2.25rem;
+$font-size: 1rem;
 
 $button-style: "Poppins Regular";
-$button-text-color :#ffffff;
+$button-text-color: #ffffff;
 
+//S2 Variable
+$color-Section2-1: #f55767;
+$taille-police-Section2-1: 1.2rem;
+$font-Section2-1: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+$font-lorem: "https://chemin/vers/le/fichier-de-police-poppins-gras.ttf";
+$taille-police-lorem: 1rem;
 
-
-
-
+$color-section2-2: #2563ff;
+$font-family: "Poppins", sans-serif;
+$font-family: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap");
+.slide {
+  font-family: $font-family;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+$color-section2-3: #40975f;
