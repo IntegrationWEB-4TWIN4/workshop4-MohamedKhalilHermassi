@@ -120,3 +120,24 @@ footer {
   min-height: auto;
   color: white;
 }
+
+.navbar {
+  background-color: #fff;
+
+  ul.navbar-nav {
+      li.nav-item {
+          margin-top: 6,0625rem;
+          a.nav-link {
+              font-size: 1rem;
+              color: #242f51; // Couleur bleue par défaut de Bootstrap
+              
+          }
+      }
+  }
+}
+.container-fluid {
+  img {
+      margin-top: 3rem;
+  }
+}
+
